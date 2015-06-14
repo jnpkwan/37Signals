@@ -109,6 +109,7 @@ header h5 {
 	text-align: center;
 	height: 288px;
 	padding-bottom: 30px;
+	margin: auto;
 	font-family: "Lucida Grande","Lucida Sans Unicode", Verdana, sans-serif;
 }
 
@@ -529,4 +530,100 @@ footer p {
 	color: #999;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	margin-top: 50px;
+}
+
+@media (max-width: 675px) {
+	nav, header, section {
+		width: 500px;
+	}
+
+	nav {
+		float: none;
+		margin: 1% 0%;
+		padding: 0%;
+	}
+
+	nav ul {
+		float: none;
+		text-align: center;
+	}
+
+	hr {
+		margin: 0;
+	}
+
+	header h1 {
+		font-size: 39px;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	section.customers h2, .manifesto h2, .rework h2, .offerings h2 {
+		font-size: 30px;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.manifesto h2 {
+		margin: 5% 0;
+	}
+
+	.customers img, .crumple, .arrow-right, .meet {
+		display: none;
+	}
+
+	a.bc, a.hr, a.cf {
+		margin: 0 4px;
+		width: 25%;
+
+	}
+
+	.customers p {
+		font-size: 20px;
+		margin-left: 5%;
+	}
+
+	div.column, div.column-end {
+		width: 510px;
+		margin-right: 0px;
+	}
+
+	.column h4, .column-end h4 {
+		margin-top: 15px;
+	}
+
+	.book {
+		margin-top: 15px;
+		margin-bottom: 0px;
+	}
+
+	.quotes h3:nth-child(3), .quotes p:nth-child(4) {
+		display: none;
+	}
+
+	section.rework {
+		margin-bottom: 0;
+	}
+
+	.offerings h2 {
+		margin-bottom: 25px;
+	}
+
+	div.main-offerings a {
+		margin: 0;
+		padding: 2px;
+	}
+
+	.offerings .column-end {
+		width: 300;
+		margin-left: 95px;
+	}
+
+	.products {
+		margin: 10px 0px 30px 20px;
+	}
+
+	footer p {
+		margin-top: 3%;
+	}
 }
